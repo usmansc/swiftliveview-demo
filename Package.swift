@@ -10,7 +10,7 @@ let package = Package(
         .package(url: "https://github.com/vapor/vapor.git", from: "4.0.0"),
         .package(url: "https://github.com/vapor/leaf.git", from: "4.0.0"),
         .package(url: "https://github.com/TokamakUI/TokamakVapor.git", branch: "main"),
-        .package(url: "https://github.com/usmansc/swiftliveview.git", branch: "main")
+        .package(url: "https://github.com/usmansc/swiftliveview.git", branch: "feature/thread-safety")
     ],
     targets: [
         .executableTarget(

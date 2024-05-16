@@ -37,7 +37,7 @@ public func configure(_ app: Application) async throws {
     try routes(app)
 }
 
-public enum Action: String, Decodable {
+public enum Action: String, Decodable, Sendable {
     case live_action = "live-action"
 }
 
